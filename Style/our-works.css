@@ -1,0 +1,38 @@
+.our-works {
+  max-width: 1920px;
+  margin: 180px auto 0;
+  text-align: center;
+}
+
+.works-title {
+  font-family: "Reforma-Grotesk-Demi";
+  font-size: 52px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto 40px;
+}
+
+.works-advantages {
+  margin: 0 auto 60px;
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.works-element, .works-element:nth-of-type(2), .works-element:nth-of-type(3) {
+  width: 100%;
+  display: flex;
+}
+
+.works-element img {
+  width: 33.3333%;
+}
+
+.works-element__third, .works-element__fourth {
+  width: 100%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);;
+}

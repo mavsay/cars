@@ -1,0 +1,104 @@
+.firstScreen {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.firstScreen-title {
+  font-family: "Reforma-Grotesk-Bold";
+  font-size: 150px;
+  max-width: 483px;
+  margin: 0 auto 30px;
+  line-height: 125%;
+  color: #DB3138;
+}
+
+.ellipsis-firstScreen {
+  margin: 0 auto 41px;
+}
+
+.firstScreen-text{
+  max-width: 437px;
+  margin: 0 auto 40px;
+  font-family: "Reforma-Grotesk-Medium";
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.firstScreen-button {
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 15px 0 10px 25px;
+}
+
+.firstScreenInfo {
+  display: grid;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  text-align: center;
+  color: white;
+  max-width: 1920px;
+  min-height: 213px;
+  margin: 0 auto;
+}
+
+.firstScreenInfo-border {
+  margin: 103px auto 0;
+  border-top: 1px solid #898989;
+  border-bottom: 1px solid #898989;
+}
+
+.firstScreenInfo-item {
+  min-width: 100%;
+  margin: 0;
+  font-family: "Reforma-Grotesk-Demi";
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-left: 1px solid #898989;
+  position: relative;
+}
+
+.firstScreenInfo-item:first-child {
+  border-left: none;
+}
+
+.adds {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 265px;
+}
+
+.phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 265px;
+}
+
+.mode {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 265px;
+}
+
+.firstScreenInfo-title {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.firstScreenInfo-text {
+  font-size: 24px;
+  line-height: 140%;
+  color: #DB3138;
+}
+
+

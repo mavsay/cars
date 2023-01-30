@@ -1,0 +1,87 @@
+.advantages {
+  margin: 180px auto 0;
+  max-width: 1300px;
+}
+
+.advantages-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 130px;
+  margin: 0 10px;
+}
+
+.advantagesInfo {
+  max-width: 526px;
+  color: white;
+}
+
+.advantages-item {
+}
+
+.advantage-title {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.advantage-title img {
+  max-height: 70px;
+}
+
+.advantage-name {
+  margin: 0;
+  font-family: "Reforma-Grotesk-Demi";
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.advantage-text {
+  font-family: "Reforma-Grotesk-Medium";
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.ellipsis-advantages {
+  margin: 40px auto;
+}
+
+.advantagesProof {
+  width: 50%;
+}
+
+.proofs-container {
+  position: relative;
+}
+
+.proof-item img {
+  margin-bottom: 10px;
+}
+
+.proof-item p {
+  max-width: 422px;
+  text-align: center;
+  margin: 50px auto 0;
+  font-family: "Reforma-Grotesk-Demi";
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.advantagesArrow-left {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+}
+
+.advantagesArrow-right {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+}

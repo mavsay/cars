@@ -1,0 +1,96 @@
+@import url(./Style/fonts.css);
+@import url(./Style/header.css);
+@import url(./Style/fisrtScreen.css);
+@import url(./Style/achievements.css);
+@import url(./Style/slider.css);
+@import url(./Style/advantages.css);
+@import url(./Style/services.css);
+@import url(./Style/our-works.css);
+@import url(./Style/foooter.css);
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: #141414 url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Reforma-Grotesk-Demi";
+  cursor: pointer;
+  position: relative;
+  opacity: 1;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.backgroundButton {
+  position: absolute;
+  background-color: #DB3138;
+  top: 0;
+  left: 0;
+  width: 75%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.ellipsis {
+  display: flex;
+  justify-content: space-between;
+  max-width: 145px;
+}
+
+.ellipsis-item {
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: #DB3138;
+}
+
+.common-arrow {
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 0;
+  transform: rotate(-45deg);
+  border: 3px solid #DB3138;
+  cursor: pointer;
+}
+
+.common-arrow:hover {
+  opacity: 0.5;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  translate: -50% -50%;
+  rotate: 45deg;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  translate: -50% -50%;
+  rotate: -135deg;
+}

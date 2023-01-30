@@ -1,0 +1,126 @@
+.services {
+  max-width: 1300px;
+  margin: 180px auto 0;
+}
+
+.services-container {
+  font-family: "Reforma-Grotesk-Demi";
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 680px;
+}
+
+.services-title {
+  font-size: 52px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+}
+
+.ellipsis-services {
+  margin: 40px auto 60px;
+}
+
+.tabs-container {
+  max-width: 1300px;
+
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+
+.tabs-container {
+  position: relative;
+}
+
+
+.labels {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  margin: 0 auto;
+}
+
+.tabs-container label {
+  min-width: 200px;
+  padding: 20px 0 15px;
+  /* background: #DB3138; */
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background ease 0.2s;
+}
+
+.tabs-block {
+  display: none;
+  justify-content: space-between;
+  column-gap: 24px;
+  margin-top: 80px;
+  top: 80px;
+  position: absolute;
+}
+
+.tabs-container input[type="radio"] {
+  display: none;
+}
+
+.tabs-container input[type="radio"]:checked + label {
+  background: #DB3138;
+}
+
+.tabs-container input[type="radio"]:checked + .label-second ~ #tab2 {
+  display: flex;
+}
+
+.tabs-container input[type="radio"]:checked + .label-first ~ #tab1 {
+  display: flex;
+}
+
+
+
+.tab {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: flex-end;
+  text-align: center;
+  border: 1px solid #898989;
+  padding: 50px 40px 50px;
+}
+
+.tab img {
+  margin: auto auto;
+  height: 70px;
+}
+
+.tab h3 {
+  font-size: 24px;
+  line-height: 140%;
+  max-width: 190px;
+  margin: 20px auto 0;
+}
+
+.tab p {
+  font-size: 16px;
+  line-height: 140%;
+  max-width: 266px;
+  margin: 20px auto 0;
+}
+
+.services-button {
+  position: relative;
+  width: 93px;
+  height: 41px;
+  margin: 35px auto 0;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  padding: 10px 0 5px 25px;
+  text-transform: uppercase;
+}

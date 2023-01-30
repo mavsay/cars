@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Reforma-Grotesk-Bold";
+  src: url("../fonts/font/ReformaGroteskBold.ttf");
+}
+
+@font-face {
+  font-family: "Reforma-Grotesk-Demi";
+  src: url("../fonts/font/ReformaGroteskDemi.ttf");
+}
+
+@font-face {
+  font-family: "Reforma-Grotesk-Medium";
+  src: url("../fonts/font/ReformaGroteskMedium.ttf");
+}
+
+@font-face {
+  font-family: "Reforma-Grotesk-Light";
+  src: url("../fonts/font/ReformaGroteskLight.ttf");
+}

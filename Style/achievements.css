@@ -1,0 +1,68 @@
+.achievements {
+  max-width: 1300px;
+  margin: 180px auto 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Reforma-Grotesk-Demi";
+  letter-spacing: 0.05em;
+}
+
+.achievements-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+  margin: 0 10px;
+}
+
+.achievementsInfo {
+  width: 50%;
+}
+
+.achievementsInfo-title {
+  font-size: 52px;
+  line-height: 140%;
+  margin: 0 0 40px;
+}
+
+.achievementsInfo-text {
+  font-family: "Reforma-Grotesk-Medium";
+  max-width: 526px;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  margin-top: 60px;
+}
+
+.achievementsBlock {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.achievementsBlock-column {
+  width: 50%;
+}
+
+.right-column {
+  margin-top: 40px;
+}
+
+.achievement {
+  border: 1px solid #898989;
+  align-items: center;
+}
+
+.achievement-place {
+  font-size: 24px;
+  color: #DB3138;
+}
+
+.achievement-bigSize {
+  font-size: 56px;
+}
+
+.achievement-icon {
+  margin: 30px auto 20px;
+}
